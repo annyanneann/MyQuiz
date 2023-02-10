@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Квиз</string>
+    <string name="question1">Мой любимый сериал это Тьма</string>
+    <string name="question2">В данный момент я читаю канта</string>
+    <string name="question3">Я ненавижу брокколи</string>
+    <string name="question4">Я люблю розовый цвет</string>
+    <string name="question5">Я веду экологичный образ жизни</string>
+    <string name="buttonTrue">Правда</string>
+    <string name="buttonFalse">Неправда</string>
+    <string name="buttonNext">Дальше</string>
+    <string name="correct">Верно!</string>
+    <string name="incorrect">Неверно!</string>
+    <string name="back">Назад</string>
+    <string name="next">Вперед</string>
+    <string name="again">Пройти заново</string>
+    <string name="end">Ты прошел квиз.</string>
+    <string name="scores">Ты ответил правильно на %d вопросиков.</string>
+    <string name="win">Ты выиграл!</string>
+    <string name="loss">Ты проиграл!</string>
+
+
+    <string name="showAnswer">Подсмотреть ответ</string>
+    <string name="showCheat">Считерить</string>
+
+    <string name="wait">Минутку...</string>
+    <string name="Cheat">Ты хочешь подсмотреть ответ? (дизлайк). У тебя осталось %1$s попыток.</string>
+    <string name="Cheater">Ты подсмотрел ответ!</string>
+
+
+    <string name="CheaterLoh">Ответ на вопрос</string>
+    <string name="api_level">API level %1$s</string>
+
+
+
+
+</resources>

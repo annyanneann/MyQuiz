@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/gradient1"
+
+    >
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        tools:text = "@string/question1"
+        />
+
+    <TextView
+        android:id="@+id/scoresText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        tools:text = "@string/scores"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/winOrLossText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        tools:text = "@string/win"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:contentDescription="@string/again"
+        android:src="@mipmap/again"
+        android:visibility="gone"
+        app:srcCompat="@mipmap/again" />
+
+    <LinearLayout
+        android:id="@+id/LinLayHor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#EA80FC"
+            android:text="@string/buttonTrue" />
+
+        <Button
+            android:id="@+id/False"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FF80AB"
+            android:text="@string/buttonFalse" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cheatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF80AB"
+        android:text="@string/showCheat" />
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp" />
+
+</LinearLayout>
